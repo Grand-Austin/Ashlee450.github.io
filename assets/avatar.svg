@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">A reader holding an open book</title>
+  <circle cx="120" cy="120" r="119" fill="#f7f5f1"/>
+  <path d="M48 211c8-35 32-53 72-53s64 18 72 53" fill="#a7b8ad"/>
+  <path d="M74 214c3-34 16-53 46-56 30 3 43 22 46 56" fill="#8fa69d"/>
+  <path d="M94 153v16c7 11 17 17 26 17s19-6 26-17v-16" fill="#e5c8aa"/>
+  <path d="M93 151v16c8 12 18 18 27 18s19-6 27-18v-16" fill="none" stroke="#303633" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="120" cy="107" rx="42" ry="53" fill="#e8ccb0" stroke="#303633" stroke-width="3"/>
+  <path d="M78 105c-8-37 12-62 42-62 33 0 49 26 42 62-3-16-12-25-25-29-19 10-38 13-59 12Z" fill="#454b48"/>
+  <path d="M78 88c10-3 21-5 30-10 9-4 16-10 23-16 10 3 23 11 30 23" fill="none" stroke="#303633" stroke-width="3" stroke-linecap="round"/>
+  <path d="M98 114h8m28 0h8" stroke="#303633" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M114 136c4 3 9 3 13 0" fill="none" stroke="#a36c66" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M120 206c-15-12-32-15-58-12v-31c27-4 46 1 58 12 12-11 31-16 58-12v31c-26-3-43 0-58 12Z" fill="#fffdf8" stroke="#303633" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M120 175v31M72 174c17-1 31 2 41 10m54-10c-17-1-31 2-41 10" fill="none" stroke="#b9b8ac" stroke-width="2" stroke-linecap="round"/>
+  <path d="M62 194c16-1 37 2 58 12 21-10 42-13 58-12" fill="none" stroke="#303633" stroke-width="3" stroke-linecap="round"/>
+</svg>

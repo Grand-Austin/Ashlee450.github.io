@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f1f3">
+    <meta name="description" content="The academic homepage of $site_title at the University of Helsinki.">
+    <title>$site_title · University of Helsinki</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="$site_title, back to top">Å</a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-nav" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="assets/aoxue_li_cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <span class="nav-disabled" aria-disabled="true" title="Coming soon">Blogs</span>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="top" aria-label="Introduction">
+        <div class="hero-inner">
+          <div class="hero-copy">$hero_html</div>
+        </div>
+        <div class="hero-social social-row" aria-label="Academic profiles and contact">$social_html</div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to About">
+          <span>Explore</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v16m-6-6 6 6 6-6"/></svg>
+        </a>
+      </section>
+
+      <section class="content-section about-section" id="about" aria-labelledby="about-title">
+        <div class="section-inner about-inner">
+          <img class="avatar" src="assets/avatar.svg" alt="Minimal illustration of a person reading an open book" width="220" height="220">
+          <h2 id="about-title">$about_name</h2>
+          <div class="about-copy markdown-copy">$about_html</div>
+          <div class="about-social social-row" aria-label="Academic profiles and contact">$about_social_html</div>
+        </div>
+      </section>
+
+      $sections_html
+    </main>
+    <footer class="site-footer"><span>© $year $site_title</span><a href="#top">Back to top ↑</a></footer>
+  </body>
+</html>
