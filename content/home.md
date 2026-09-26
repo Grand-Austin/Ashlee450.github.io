@@ -9,4 +9,4 @@ orcid: https://example.invalid/orcid
 
 ## 李傲雪
 
-### University of Helsinki
+### HELSINGIN YLIOPISTO
