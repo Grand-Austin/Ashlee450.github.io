@@ -1,8 +1,8 @@
 ---
 github: https://github.com/Ashlee450
-scholar: https://example.invalid/google-scholar
+scholar: 
 email: aoxue.z.li@helsinki.fi
-orcid: https://example.invalid/orcid
+orcid: 
 linkedin:
 ---
 
